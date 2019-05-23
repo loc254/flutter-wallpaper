@@ -108,6 +108,7 @@ class WallpaperScreenState extends State<WallpaperScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(widget.title),
         actions: <Widget>[
           IconButton(

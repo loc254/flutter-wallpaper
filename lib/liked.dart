@@ -31,6 +31,7 @@ class LikedScreen extends StatelessWidget {
     wallpaperLikedList = likedList.where((i) => i.data['liked']).toList();
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Liked Images'),
       ),
       body: wallpaperLikedList != null
